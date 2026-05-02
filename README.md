@@ -24,11 +24,11 @@ This project presents **Guardian AI**, an end-to-end automated EEG seizure detec
 ## 🗂️ Repository Structure
 
 ```
-.
+├── dataset/            # Epileptic Seizure Recognition Dataset (CSV)
 ├── chrononet/          # ChronoNet & AttentionChronoNet PyTorch implementation
 ├── svm/                # Support Vector Machine model and training scripts
 ├── random_forest/      # Random Forest model and training scripts
-├── edf/                # EDF file handling and MNE-Python preprocessing utilities
+├── edf/           # EDF file handling and MNE-Python preprocessing utilities
 ├── Project report/     # Full project report (PDF)
 ├── .devcontainer/      # Development container configuration
 └── README.md
